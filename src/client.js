@@ -1,4 +1,4 @@
-import { ApolloLink } from 'apollo-link'
+import { ApolloLink } from '@apollo/client'
 import { Accounts } from 'meteor/accounts-base'
 
 const DEFAULT_HEADER = 'authorization'
@@ -10,8 +10,8 @@ export const MeteorAccountsLink = ({ headerName = DEFAULT_HEADER } = {}) =>
     if (token) {
       operation.setContext(() => ({
         headers: {
-          [headerName]: token
-        }
+          [headerName]: token,
+        },
       }))
     }
 
