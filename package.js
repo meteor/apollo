@@ -2,7 +2,7 @@ Package.describe({
   name: 'apollo',
   version: '4.0.0',
   summary: 'Basic Apollo integration for Meteor apps',
-  git: 'https://github.com/apollographql/meteor-integration',
+  git: 'https://github.com/meteor/apollo',
 })
 
 Package.onUse(function (api) {
