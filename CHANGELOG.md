@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. [*File syntax*](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.0] - 2022-04-18
+- Updated testing to use GitHub instead of Travis
+- Updated `@apollo/client` to v3.7.12
+
+## [4.0.0] - 2020-07-21
+- Updated to use `@apollo/client` v4.0.0
+
 ## [3.1.0] - 2020-01-14
 - Update `apollo-link` to latest version (1.2.13) and bump package minor version to republish for Meteor 1.9.
 
