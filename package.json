@@ -30,7 +30,6 @@
     "eslint-plugin-meteor": "^4.2.2",
     "eslint-plugin-prettier": "^2.7.0",
     "isomorphic-fetch": "^2.2.1",
-    "prettier": "^1.19.1",
-    "spacejam": "^1.6.1"
+    "prettier": "^1.19.1"
   }
 }
