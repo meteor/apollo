@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Updated `@apollo/client` to v3.7.12
 
 ## [4.0.0] - 2020-07-21
-- Updated to use `@apollo/client` v4.0.0
+- Updated to use `@apollo/client` v3.0.0
 
 ## [3.1.0] - 2020-01-14
 - Update `apollo-link` to latest version (1.2.13) and bump package minor version to republish for Meteor 1.9.
