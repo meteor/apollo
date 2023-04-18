@@ -6,7 +6,7 @@ Package.describe({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('2.8')
+  api.versionsFrom('2.8.0')
   api.use(['ecmascript', 'accounts-base', 'check'])
 
   api.mainModule('src/server.js', 'server')
