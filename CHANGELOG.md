@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file. [*File syntax*](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.0] - 2022-04-19
+- Remove `@apollo/client` from npm dependencies based inside the package and instead needs to be independently installed.
+- Minimum required Meteor version is 2.8
+
 ## [4.1.0] - 2022-04-18
 - Updated testing to use GitHub instead of Travis
 - Updated `@apollo/client` to v3.7.12
