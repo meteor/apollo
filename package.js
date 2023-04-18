@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 })
 
 Npm.depends({
-  '@apollo/client': '3.3.20',
+  '@apollo/client': '3.7.12',
 })
 
 Package.onTest(function (api) {
