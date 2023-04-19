@@ -1,6 +1,6 @@
 Package.describe({
   name: 'apollo',
-  version: '4.1.0',
+  version: '4.2.0',
   summary: 'Basic Apollo integration for Meteor apps',
   git: 'https://github.com/meteor/apollo',
 })
