@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file. [*File syntax*](http://keepachangelog.com/).
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [5.0.0] - 2022-04-19
+## [5.0.0] - 2022-04-22
 - Remove `@apollo/client` from npm dependencies based inside the package and instead needs to be independently installed.
 - Minimum required Meteor version is 2.8
 
