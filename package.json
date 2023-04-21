@@ -30,6 +30,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-meteor": "^4.2.2",
     "eslint-plugin-prettier": "^2.7.0",
+    "graphql": "^16.6.0",
     "isomorphic-fetch": "^2.2.1",
     "prettier": "^1.19.1"
   }
