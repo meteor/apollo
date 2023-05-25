@@ -8,7 +8,7 @@ export const getUser = async loginToken => {
 
     const hashedToken = Accounts._hashLoginToken(loginToken)
 
-    const user = await Meteor.users.rawCollection().findOne({
+    const user = await Meteor.users.findOneAsync({
       'services.resume.loginTokens.hashedToken': hashedToken
     })
 
