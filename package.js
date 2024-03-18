@@ -1,12 +1,12 @@
 Package.describe({
   name: 'apollo',
-  version: '5.0.0',
+  version: '5.0.1-beta.0',
   summary: 'Basic Apollo integration for Meteor apps',
   git: 'https://github.com/meteor/apollo',
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('2.8.0')
+  api.versionsFrom(['2.8.0', '3.0-beta.4'])
   api.use(['ecmascript', 'accounts-base', 'check'])
 
   api.mainModule('src/server.js', 'server')
